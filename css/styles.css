@@ -1,0 +1,114 @@
+:root {
+  --title-text-color: #212121;
+  --subtitle-text-color: #757575;
+  --accent-color: #2196f3;
+  --text-btn-color: #ffffff;
+}
+
+/* основа текста */
+
+body {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  color: var(--title-text-color);
+}
+
+/* Верхняя линия*/
+
+.pagination,
+.logo-site:hover,
+.logo-site:focus {
+  color: var(--title-text-color);
+}
+
+.bottom-pagination:hover,
+.bottom-pagination:focus,
+.pagination:hover,
+.pagination:focus {
+  color: var(--accent-color);
+}
+
+.link {
+  color: var(--subtitle-text-color);
+}
+
+.logo-site-bottom,
+.logo-site,
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* шапка */
+
+.button-order:hover,
+.button-order:focus {
+  color: var(--text-btn-color);
+  background: var(--accent-color);
+}
+
+.button-order {
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+
+/* особенности */
+
+.advantages-tatle {
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* чем мы занимаемся */
+
+.subtitle {
+  font-size: 36px;
+  line-height: 1.2;
+}
+/* наша команда */
+.name-employee {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.name-specialty {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--subtitle-text-color);
+}
+/* подвал */
+.bottom {
+  background: #2f303a;
+}
+.features-address {
+  font-size: 14px;
+  color: var(--text-btn-color);
+}
+.bottom-pagination {
+  color: var(--text-btn-color);
+}
+
+.logo-site-bottom:hover,
+.logo-site-bottom:focus {
+  color: var(--text-btn-color);
+}
+
+/* портфолио */
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-specialty {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--subtitle-text-color);
+}
