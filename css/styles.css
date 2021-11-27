@@ -26,6 +26,9 @@ body {
 .pagination:focus {
   color: var(--accent-color);
 }
+.site-pagination .pagination.current {
+  color: var(--accent-color);
+}
 
 .link {
   color: var(--subtitle-text-color);
