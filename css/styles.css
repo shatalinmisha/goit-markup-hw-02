@@ -3,35 +3,56 @@
   --subtitle-text-color: #757575;
   --accent-color: #2196f3;
   --text-btn-color: #ffffff;
+  --fon-color: #2f303a;
+  --btn-fon-color: #f5f4fa;
 }
 
 /* основа текста */
 
 body {
-  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--title-text-color);
 }
 
 /* Верхняя линия*/
+.logo-pagination {
+  font-family: 'Raleway', sans-serif;
+  color: var(--title-text-color);
+  font-size: 26px;
+  line-height: 1.2;
+}
 
-.pagination,
+.pagination {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
 .logo-site:hover,
 .logo-site:focus {
   color: var(--title-text-color);
 }
 
+.logo-pagination:hover,
+.logo-pagination:focus,
 .bottom-pagination:hover,
 .bottom-pagination:focus,
 .pagination:hover,
 .pagination:focus {
   color: var(--accent-color);
 }
+
 .site-pagination .pagination.current {
   color: var(--accent-color);
 }
 
 .link {
   color: var(--subtitle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  font-style: normal;
 }
 
 .logo-site-bottom,
@@ -42,21 +63,41 @@ body {
 }
 
 /* шапка */
-
+.primary-button-order:hover,
+.primary-button-order:focus,
 .button-order:hover,
 .button-order:focus {
   color: var(--text-btn-color);
   background: var(--accent-color);
 }
 
-.button-order {
+.primary-button-order {
+  color: var(--title-text-color);
+  background: var(--text-btn-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
   cursor: pointer;
 }
 
-.title {
+.button-order {
+  font-family: 'Roboto', sans-serif;
+  color: var(--title-text-color);
+  background: var(--btn-fon-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.primary-title {
+  color: var(--text-btn-color);
+  background: var(--fon-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* особенности */
@@ -64,11 +105,15 @@ body {
 .advantages-tatle {
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .features-text {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--subtitle-text-color);
 }
 
 /* чем мы занимаемся */
@@ -76,28 +121,36 @@ body {
 .subtitle {
   font-size: 36px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /* наша команда */
 .name-employee {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .name-specialty {
   font-size: 16px;
   line-height: 1.2;
   color: var(--subtitle-text-color);
+  letter-spacing: 0.03em;
 }
 /* подвал */
 .bottom {
-  background: #2f303a;
+  background: var(--fon-color);
 }
 .features-address {
   font-size: 14px;
   color: var(--text-btn-color);
+  font-style: normal;
+  letter-spacing: 0.03em;
 }
 .bottom-pagination {
   color: var(--text-btn-color);
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-site-bottom:hover,
@@ -109,9 +162,11 @@ body {
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-specialty {
   font-size: 16px;
   line-height: 1.9;
   color: var(--subtitle-text-color);
+  letter-spacing: 0.03em;
 }
