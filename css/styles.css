@@ -20,6 +20,7 @@ body {
   color: var(--title-text-color);
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .pagination {
@@ -27,6 +28,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  text-decoration: none;
 }
 
 .logo-site:hover,
@@ -53,6 +55,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   font-style: normal;
+  text-decoration: none;
 }
 
 .logo-site-bottom,
@@ -147,10 +150,12 @@ body {
   letter-spacing: 0.03em;
 }
 .bottom-pagination {
+  font-family: 'Raleway', sans-serif;
   color: var(--text-btn-color);
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo-site-bottom:hover,
